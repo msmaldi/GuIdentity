@@ -1,6 +1,6 @@
 {
   "description": "ASP.NET Core Identity by default uses string as primary key, using GuIdentity you will have guid as a primary key.",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "authors": [
     "msmaldi"
   ],
@@ -22,7 +22,7 @@
     ]
   },
   "dependencies": {
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.0"
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "1.1.2"
   },
   "frameworks": {
     "net451": { },

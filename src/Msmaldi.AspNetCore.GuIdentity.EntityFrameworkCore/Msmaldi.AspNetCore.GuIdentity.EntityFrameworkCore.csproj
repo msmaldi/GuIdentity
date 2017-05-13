@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>ASP.NET Core Identity by default uses string as primary key, using GuIdentity you will have guid as a primary key.</Description>
+    <VersionPrefix>1.2.0</VersionPrefix>
+    <Authors>msmaldi</Authors>
+    <TargetFrameworks>net451;netstandard1.3</TargetFrameworks>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AssemblyName>Msmaldi.AspNetCore.GuIdentity.EntityFrameworkCore</AssemblyName>
+    <PackageId>Msmaldi.AspNetCore.GuIdentity.EntityFrameworkCore</PackageId>
+    <PackageTags>aspnetcore;entityframeworkcore;identity;membership;guid</PackageTags>
+    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/msmaldi/GuIdentity</RepositoryUrl>
+    <Version>1.2.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="1.1.2" />
+  </ItemGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net451' ">
+    <Reference Include="System" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+
+</Project>
