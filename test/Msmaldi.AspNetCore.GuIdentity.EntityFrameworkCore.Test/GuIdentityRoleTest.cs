@@ -1,6 +1,6 @@
 using Xunit;
 using System;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using System.Reflection;
 
 namespace Msmaldi.AspNetCore.GuIdentity.EntityFrameworkCore.Test

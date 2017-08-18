@@ -1,8 +1,9 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Msmaldi.AspNetCore.GuIdentity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Msmaldi.AspNetCore.GuIdentity;
 
 namespace GuIdentitySample.Mvc.Models
 {

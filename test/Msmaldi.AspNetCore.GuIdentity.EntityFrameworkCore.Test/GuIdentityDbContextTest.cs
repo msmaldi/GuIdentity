@@ -38,7 +38,7 @@ namespace Msmaldi.AspNetCore.GuIdentity.EntityFrameworkCore.Test
 
 		protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseInMemoryDatabase();
+            optionsBuilder.UseInMemoryDatabase("==memory==");
         }	
 	}
 }
