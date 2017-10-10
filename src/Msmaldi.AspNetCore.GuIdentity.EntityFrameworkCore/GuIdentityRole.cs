@@ -9,8 +9,8 @@ namespace Msmaldi.AspNetCore.GuIdentity
 		{ }
 
 		public GuIdentityRole(string roleName) : this()
-        {
-            Name = roleName;
-        }
+		{
+			Name = roleName;
+		}
 	}
 }
