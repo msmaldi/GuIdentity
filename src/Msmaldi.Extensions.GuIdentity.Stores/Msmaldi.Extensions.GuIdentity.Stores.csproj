@@ -2,22 +2,22 @@
 
   <PropertyGroup>
     <Description>ASP.NET Core Identity by default uses string as primary key, using GuIdentity you will have guid as a primary key.</Description>
-    <VersionPrefix>2.0.1</VersionPrefix>
+    <VersionPrefix>3.0.0</VersionPrefix>
     <Authors>msmaldi</Authors>
-    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1</TargetFrameworks>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 
     <AssemblyName>Msmaldi.Extensions.GuIdentity.Stores</AssemblyName>
     <PackageId>Msmaldi.Extensions.GuIdentity.Stores</PackageId>
     <PackageTags>aspnetcore;entityframeworkcore;identity;membership;guid</PackageTags>
-    <PackageLicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</PackageLicenseUrl>
+    <LicenseUrl>http://www.apache.org/licenses/LICENSE-2.0</LicenseUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/msmaldi/GuIdentity</RepositoryUrl>
-    <Version>2.0.1</Version>
+    <Version>3.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="2.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="3.0.0" />
   </ItemGroup>
 
 </Project>

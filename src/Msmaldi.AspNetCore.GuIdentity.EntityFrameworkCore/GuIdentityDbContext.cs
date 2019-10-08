@@ -25,12 +25,12 @@ namespace Msmaldi.AspNetCore.GuIdentity.EntityFrameworkCore
 
 	public class GuIdentityDbContext<TUser, TRole> : IdentityDbContext<TUser, TRole, Guid>
 		where TUser : GuIdentityUser
-		where TRole : GuIdentityRole
+	 	where TRole : GuIdentityRole
 	{
-		public GuIdentityDbContext(DbContextOptions options) : base(options)
-		{ }
+	 	public GuIdentityDbContext(DbContextOptions options) : base(options)
+	 	{ }
 
-		protected GuIdentityDbContext()
-		{ }
+	 	protected GuIdentityDbContext()
+	 	{ }
 	}
 }
